@@ -1,0 +1,197 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: grid;
+    background-color: rgb(6, 67, 82);
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15)3px 10px 15px;
+    place-content: center;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(7, 60px);
+    grid-template-areas: 
+    "sc sc sc sc"
+    "sc sc sc sc"
+    "de de di mu"
+    "se ei ni mi"
+    "fo fi si pl"
+    "th tw on pl"
+    "ze do eq dt" ;
+    
+}
+.screen{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 10px;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    grid-area: sc;
+    background-color: #fff;
+    
+}
+.nine{
+    grid-area: ni;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    align-items: center;
+    color: #fff;
+    
+}
+.eight{
+    grid-area: ei;
+    background-color: rked;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    color: #fff;
+   
+}
+.seven{
+    grid-area: se;
+    display: flex;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.six{
+    grid-area: si;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five{
+    grid-area: fi;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    grid-area: fo;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    align-items: center;
+}
+.three{
+    grid-area: th;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    grid-area: tw;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    grid-area: on;
+    border:1px solid rgba(45, 43, 43, 0.548);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zero{
+    grid-area: ze;
+    color: #fff;
+    display: flex;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    grid-area: pl;
+    color: white;
+    display: flex;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    align-items: center;
+}
+.minus{
+    grid-area: mi;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.multiply{
+    grid-area: mu;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divide{
+    grid-area: di;
+    color: #fff;
+    display: flex;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    align-items: center;
+}
+.equal-to{
+    grid-area: eq;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    background-color: orange;
+}
+.del{
+    grid-area: de;
+    background-color:red;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.15)3px 10px 15px; */
+}
+.double-zero{
+    grid-area: do;
+    display: flex;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+.dot{
+    grid-area: dt;
+    display: flex;
+    color: #fff;
+    border: 1px solid rgba(45, 43, 43, 0.548);
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
